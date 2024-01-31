@@ -114,8 +114,16 @@ Fuentes de datos obligatorias:
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Sobre nosotros**
+**AnalyticaPro Solutions**, Somos una consultora especializada en análisis de datos dedicada a apoyar a las empresas en la mejora de sus decisiones mediante el uso inteligente de la información. Ofrecemos una amplia gama de servicios que incluyen investigación, visualización de datos, modelado y aplicaciones de machine learning. Utilizamos las herramientas más avanzadas y las metodologías más efectivas del mercado para proporcionar a nuestros clientes insights valiosos y estratégicos basados en datos sólidos.
 
-......
+| Perfil                                                | Nombre              | Rol              | LinkedIn                                             | GitHub           |
+|-------------------------------------------------------|---------------------|------------------|------------------------------------------------------|------------------|
+| <img src="https://media.licdn.com/dms/image/D4D35AQFIFcQYBmL-3Q/profile-framedphoto-shrink_400_400/0/1690323274890?e=1707346800&v=beta&t=5QwYnNd0hqbqjbP_CndtJQR4GdcXJptPt0WmCwiGWzI" width=48 style="border-radius:50%"> | Gabriela Barrionuevo | Data Engineer    | [![LinkedIn][linkedin-logo]][linkedin-gabi2]           | [![GitHub][github-logo]][github-gabi2] |
+| <img src="https://media.licdn.com/dms/image/D5635AQEJ-wwu3Y9uvA/profile-framedphoto-shrink_400_400/0/1699978821158?e=1707346800&v=beta&t=T4OZvOZu-hK-qkjQA3gxop1MVNl0VIsn6_UU0_ptaZQ" width=48 style="border-radius:50%"> | Gabriela Lezcano      | Data Engineer    | [![LinkedIn][linkedin-logo]][linkedin-gabi1]         | [![GitHub][github-logo]][github-gabi1] |
+| <img src="https://media.licdn.com/dms/image/D4E03AQExsVAIEgf8-Q/profile-displayphoto-shrink_400_400/0/1700955162103?e=1712188800&v=beta&t=xEVDco-Fs3nxeW4AOqH9OtXrN9mJQyIw5mlq2nWKF7Y" width=48 style="border-radius:50%"> | Jessica Leandra     | Data Analyst     | [![LinkedIn][linkedin-logo]][linkedin-jess]            | [![GitHub][github-logo]][github-jess] |
+| <img src="https://media.licdn.com/dms/image/D4E03AQFz46wXRSpi3w/profile-displayphoto-shrink_400_400/0/1686455794862?e=1712188800&v=beta&t=PS3aqKY1AXOH2yKFxEecT-9dJ9nEI8LKjE_aaCcO2YE" width=48 style="border-radius:50%"> | Andrés Rodríguez   | Data Analyst     | [![LinkedIn][linkedin-logo]][linkedin-andre]           | [![GitHub][github-logo]][github-andre] |
+| <img src="https://media.licdn.com/dms/image/D4D35AQGcTl7mP8lhzA/profile-framedphoto-shrink_400_400/0/1706284538915?e=1707346800&v=beta&t=mOiFrdxQZ1H8C3UAXpETj3Gjo1fxLYwAZZv6imk3_yM" width=48 style="border-radius:50%"> | William Castro      | Data Science     | [![LinkedIn][linkedin-logo]][linkedin-will]            | [![GitHub][github-logo]][github-will] |
+
 
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
@@ -125,3 +133,20 @@ Desde AnalyticaPro Solutions, queremos dejar claro que los proyectos propuestos 
 
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
+
+
+
+
+
+[linkedin-logo]: https://www.paredro.com/wp-content/uploads/2019/01/LogoDelDi%CC%81a-LinkedIn-un-emblema-que-esta%CC%81-22dentro22-1110x366.jpg
+[linkedin-jess]: http://www.linkedin.com/in/jessica-leandra-v-45a89623/
+[linkedin-will]: http://www.linkedin.com/in/william-c-9b1974225/
+[linkedin-andre]: http://www.linkedin.com/in/andres-rodriguez-9737ba138/
+[linkedin-gabi1]: http://www.linkedin.com/in/gabriela-lezcano-ds/
+[linkedin-gabi2]: https://www.linkedin.com/in/gabriela-soledad-barrionuevo-a57449249/
+[github-logo]: https://cdn1.vogel.de/unsafe/800x0/smart/images.vogel.de/vogelonline/bdb/1286800/1286845/original.jpg
+[github-jess]: https://github.com/Jekavelepe
+[github-will]: https://github.com/williamCastro32/
+[github-andre]: https://github.com/AndresRodriguez92/
+[github-gabi1]: https://github.com/GabiL44
+[github-gabi2]: https://github.com/Gabbriela07/ 
