@@ -7,27 +7,35 @@
 
 
 
-## **`Tabla de Contenido`**
-- [Introducción](#Introducción)
-- [Contexto](#Contexto)
-- [Alcance](#Alcance)
-    -[Objetivos](#Objetivos del Proyecto)
-    -[Metodología_Proceso](#Metodología y Proceso)
-    -[KPIs](#KPIs)
-    -[Entregables](#Entregables)
-    -[Restricciones_Limitaciones](#Restricciones y Limitaciones)
-- [Entregables](#Entregables)
-- [Stack_tecnológico](#Stack tecnológico)
-- [Fuentes_de_datos](#Fuentes de datos)
-- [Disclaimer](#Disclaimer)
+## **Tabla de Contenido**
+
+- [Introducción](#introducción)
+- [Contexto](#contexto)
+- [Alcance](#alcance)
+    - [Objetivos del Proyecto](#objetivos-del-proyecto)
+    - [Metodología y Proceso](#metodología-y-proceso)
+    - [KPIs](#kpis)
+    - [Entregables](#entregables)
+    - [Restricciones y Limitaciones](#restricciones-y-limitaciones)
+- [Entregables](#entregables)
+- [Stack tecnológico](#stack-tecnológico)
+- [Fuentes de datos](#fuentes-de-datos)
+- [Disclaimer](#disclaimer)
+
     
 ## **Intrucción**
 
 El presente proyecto tiene como objetivo llevar a cabo un análisis exhaustivo de las opiniones de usuarios en plataformas de reseñas como Yelp y Google Maps, centrándose en el mercado estadounidense. Este análisis será realizado en el contexto de un cliente que forma parte de un conglomerado de empresas de restaurantes y turismo, con el propósito de proporcionar recomendaciones basadas en datos que impulsen la toma de decisiones estratégicas. La recopilación, depuración y análisis de datos provenientes de estas plataformas permitirá comprender la percepción de los usuarios sobre los negocios relacionados con el turismo y la hospitalidad, así como identificar tendencias y patrones que puedan ser de utilidad para el cliente. Además, se utilizarán técnicas de procesamiento de lenguaje natural (PNL) para analizar el sentimiento de las reseñas de los usuarios, lo que proporcionará una visión más profunda de la satisfacción y las expectativas de los clientes. El proyecto también incluirá el desarrollo de modelos de aprendizaje automático para clasificación y recomendación, así como la propuesta de estrategias de marketing y sistemas de recomendación personalizados. Los resultados obtenidos serán presentados en un informe detallado que servirá como guía para la toma de decisiones del cliente y la implementación de mejoras en sus operaciones. Para mas informacion 
 
-## **Contexto**
+
+<details>
+  <summary><h2>Contexto</h2></summary>
 
 "La opinión de los usuarios es un dato muy valioso, que crece día a día gracias a plataformas de reseñas. Su análisis puede ser determinante para la planificación de estratenias. Yelp es una plataforma de reseñas de todo tipo de negocios, restaurantes, hoteles, servicios entre otros. Los usuarios utilizan el servicio y luego suben su reseña según la experiencia que han recibido. Esta información es muy valiosa para las empresas, ya que les sirve para enterarse de la imagen que tienen los usuarios de los distintos locales de la empresa, siendo útil para medir el desempeño, utilidad del local, además de saber en qué aspectos hay que mejorar el servicio. Además, Google posee una plataforma de reseñas de todo tipo de negocios, restaurantes, hoteles, servicios, entre otros integrada en su servicio de localización y mapas, Google Maps. Los usuarios utilizan el servicio y luego suben su reseña según la experiencia vivida. Muchos usuarios leen las reseñas de los lugares a los que planean ir para tomar decisiones sobre dónde comprar, comer, dormir, reunirse, etc. Esta información es muy valiosa para las empresas, ya que les sirve para enterarse de la imagen que tienen los usuarios de los distintos locales de la empresa, siendo muy útil para medir el desempeño, utilidad del local, además de identificar los aspectos del servicio a mejorar.""
+
+<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
+
+</details>
 
 <details>
   <summary><h2>Alcance</h2></summary>
@@ -77,7 +85,7 @@ El proyecto seguirá una metodología de trabajo en equipo que incluye las sigui
 El proyecto se limita al análisis de datos disponibles en Yelp y Google Maps para el mercado estadounidense.
 La disponibilidad y calidad de los datos pueden afectar los resultados del análisis.
 El alcance del proyecto no incluye la implementación de sistemas en producción, sino la entrega de modelos y recomendaciones listos para su implementación.
-
+<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 </details>
 
@@ -89,7 +97,7 @@ El proyecto se desarrollará en un período de 6 semanas, con tres sprint que so
 - Sprint 2: Data Engineering. 2 Semanas
 - Sprint 3: Data Analitics y Machine learning. 2 Semanas.
 [Cronograma](https://github.com/)
-
+<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Fuentes de datos**
 
@@ -98,14 +106,17 @@ El proyecto se desarrollará en un período de 6 semanas, con tres sprint que so
 Fuentes de datos obligatorias:
 +   [Dataset de Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA?usp=share_link)
 +   [Dataset de Yelp!](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF?usp=sharing)
+<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Sobre nosotros**
 
 ......
 
+<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Disclaimer**  
 
 Desde AnalyticaPro Solutions, queremos dejar claro que los proyectos propuestos y realizados por nuestro equipo tienen un carácter exclusivamente pedagógico. Este proyecto hace parte del proyecto final del Bootcamp de Henry el cual aclara y remarcar que los fines de los proyectos propuestos son exclusivamente pedagógicos, con el objetivo de realizar proyectos que simulen un entorno laboral, en el cual se trabajen diversas temáticas ajustadas a la realidad. No reflejan necesariamente la filosofía y valores de la organización. Además, Henry no alienta ni tampoco recomienda a los alumnos y/o cualquier persona leyendo los repositorios (y entregas de proyectos) que tomen acciones en base a los datos que pudieran o no haber recabado. Toda la información expuesta y resultados obtenidos en los proyectos, nunca deben ser tomados en cuenta para la toma real de decisiones (especialmente en la temática de finanzas, salud, política, etc.).
 
+<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
