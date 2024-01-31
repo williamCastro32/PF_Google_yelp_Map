@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 # <h1 align="center">**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h1>
 
 <p align="center">
@@ -85,11 +87,14 @@ El proyecto seguirá una metodología de trabajo en equipo que incluye las sigui
 El proyecto se limita al análisis de datos disponibles en Yelp y Google Maps para el mercado estadounidense.
 La disponibilidad y calidad de los datos pueden afectar los resultados del análisis.
 El alcance del proyecto no incluye la implementación de sistemas en producción, sino la entrega de modelos y recomendaciones listos para su implementación.
+
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 </details>
 
 ### **Stack tecnológico**
+
+<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Cronograma**
 El proyecto se desarrollará en un período de 6 semanas, con tres sprint que son los siguientes:
