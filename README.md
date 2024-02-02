@@ -44,6 +44,17 @@ El presente proyecto tiene como objetivo llevar a cabo un análisis exhaustivo d
 
 El presente documento establece el alcance del proyecto de análisis de opiniones de usuarios en plataformas de reseñas como Yelp y Google Maps para el mercado estadounidense. El proyecto está dirigido por AnalyticaPro Solutions, con el objetivo de proporcionar análisis detallados y recomendaciones basadas en datos para su conglomerado de empresas de restaurantes y turismo.
 
+### Metodología de trabajo
+
+Para el completo desarrollo del trabajo contamos con tres Sprints cada uno con sus entregables y una duración de dos semanas cada uno. Para el trabajo colaborativo hacemos uso de Trello el cual nos permite establecer una planificación y gestión de tareas grupales facilitando la asignación de tiempos de entrega de cada una de las tareas.
+
+#### Metodología Ágil
+
+Como metodología ágil usamos la metodología KANBAN ya que su objetivo es visualizar de manera general cada etapa de una tarea desde que es planeada hasta su realización.
+
+La metodología Kanban es fácil de usar, su sencillez permite mantener actualizado al equipo de trabajo y este puede asumirla sin ningún tipo de complicación. Esto debido a que es un método visual, el cual permite una primera vista para tener información inmediata del estado de los proyectos. De tal forma, se podrá poner en marcha una nueva tarea una vez culminada la anterior y así garantizar un ritmo sostenible en el equipo de trabajo.
+
+
 ### **Objetivos del Proyecto**
 
 - Recopilar, depurar y disponibilizar información de diversas fuentes, incluyendo Yelp y Google Maps, para su análisis.
