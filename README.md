@@ -8,11 +8,10 @@
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png"  height="200">
 
 
-
 ## **Tabla de Contenido**
 
+- [Proyecto](#Acerca del proyecto)
 - [Introducción](#introducción)
-- [Contexto](#contexto)
 - [Alcance](#alcance)
     - [Objetivos del Proyecto](#objetivos-del-proyecto)
     - [Metodología y Proceso](#metodología-y-proceso)
@@ -24,25 +23,18 @@
 - [Fuentes de datos](#fuentes-de-datos)
 - [Disclaimer](#disclaimer)
 
-    
+## **Acerca del proyecto**
+
+Este proyecto forma parte del Proyecto Final de la etapa de Labs del programa de Data Science de Henry, centrado en el análisis del mercado estadounidense para nuestra cliente, la pizzería Sgambati's Pizza. Utilizando datos de Yelp y Google Maps, buscamos comprender las opiniones y preferencias de los usuarios en ambas plataformas, así como identificar tendencias y oportunidades en el sector de la pizza. Nuestro objetivo es desarrollar productos de datos que permitan realizar análisis de sentimientos, predecir el crecimiento o decrecimiento en el mercado de la pizza, recomendar las mejores ubicaciones para nuevas pizzerías, crear un sistema personalizado de recomendación de restaurantes y un generador de recetas de pizzas innovadoras y deliciosas. [Contexto](https://github.com/williamCastro32/PF_Google_yelp_Map/wiki#contexto)
+
 ## **Intrucción**
 
-El presente proyecto tiene como objetivo llevar a cabo un análisis exhaustivo de las opiniones de usuarios en plataformas de reseñas como Yelp y Google Maps, centrándose en el mercado estadounidense. Este análisis será realizado en el contexto de un cliente que forma parte de un conglomerado de empresas de restaurantes y turismo, con el propósito de proporcionar recomendaciones basadas en datos que impulsen la toma de decisiones estratégicas. La recopilación, depuración y análisis de datos provenientes de estas plataformas permitirá comprender la percepción de los usuarios sobre los negocios relacionados con el turismo y la hospitalidad, así como identificar tendencias y patrones que puedan ser de utilidad para el cliente. Además, se utilizarán técnicas de procesamiento de lenguaje natural (PNL) para analizar el sentimiento de las reseñas de los usuarios, lo que proporcionará una visión más profunda de la satisfacción y las expectativas de los clientes. El proyecto también incluirá el desarrollo de modelos de aprendizaje automático para clasificación y recomendación, así como la propuesta de estrategias de marketing y sistemas de recomendación personalizados. Los resultados obtenidos serán presentados en un informe detallado que servirá como guía para la toma de decisiones del cliente y la implementación de mejoras en sus operaciones. Para mas informacion 
-
-
-<details>
-  <summary><h2>Contexto</h2></summary>
-
-"La opinión de los usuarios es un dato muy valioso, que crece día a día gracias a plataformas de reseñas. Su análisis puede ser determinante para la planificación de estratenias. Yelp es una plataforma de reseñas de todo tipo de negocios, restaurantes, hoteles, servicios entre otros. Los usuarios utilizan el servicio y luego suben su reseña según la experiencia que han recibido. Esta información es muy valiosa para las empresas, ya que les sirve para enterarse de la imagen que tienen los usuarios de los distintos locales de la empresa, siendo útil para medir el desempeño, utilidad del local, además de saber en qué aspectos hay que mejorar el servicio. Además, Google posee una plataforma de reseñas de todo tipo de negocios, restaurantes, hoteles, servicios, entre otros integrada en su servicio de localización y mapas, Google Maps. Los usuarios utilizan el servicio y luego suben su reseña según la experiencia vivida. Muchos usuarios leen las reseñas de los lugares a los que planean ir para tomar decisiones sobre dónde comprar, comer, dormir, reunirse, etc. Esta información es muy valiosa para las empresas, ya que les sirve para enterarse de la imagen que tienen los usuarios de los distintos locales de la empresa, siendo muy útil para medir el desempeño, utilidad del local, además de identificar los aspectos del servicio a mejorar.""
-
-<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
-
-</details>
+En AnalyticaPro Solutions, estamos emocionados de embarcarnos en este proyecto en colaboración con Sgambatis Pizza. Nuestro objetivo es utilizar nuestra experiencia en análisis de datos y tecnologías avanzadas para ayudar a Sgambatis Pizza a comprender mejor la opinión de sus clientes y optimizar su estrategia empresarial. A través de la minería de datos en plataformas como Yelp y Google Maps, buscaremos extraer insights significativos sobre la percepción y preferencias de los clientes, lo que permitirá a Sgambatis Pizza tomar decisiones informadas para mejorar su servicio, expandirse estratégicamente y ofrecer experiencias excepcionales a sus clientes. Estamos comprometidos a utilizar métodos analíticos rigurosos y herramientas innovadoras para brindar resultados de alta calidad que impulsen el éxito de Sgambatis Pizza en el competitivo mercado de la ciudad de Nueva York. Para conocere mas sobre nuestro cliente dirijase a: [Nuestro Cliente](https://github.com/williamCastro32/PF_Google_yelp_Map/wiki#nuestro-cliente)
 
 <details>
   <summary><h2>Alcance</h2></summary>
 
-El presente documento establece el alcance del proyecto de análisis de opiniones de usuarios en plataformas de reseñas como Yelp y Google Maps para el mercado estadounidense. El proyecto está dirigido por AnalyticaPro Solutions, con el objetivo de proporcionar análisis detallados y recomendaciones basadas en datos para su conglomerado de empresas de restaurantes y turismo.
+El presente documento establece el alcance del proyecto de análisis de opiniones de usuarios en plataformas de reseñas como Yelp y Google Maps para el mercado estadounidense. Este proyecto, liderado por AnalyticaPro Solutions, tiene como objetivo ofrecer análisis detallados y recomendaciones basadas en datos para Sgambati's Pizza, su cliente en el sector de restaurantes y turismo. [Planteamiento del Problema](https://github.com/williamCastro32/PF_Google_yelp_Map/wiki#planteamiento-del-problemae)
 
 ### Metodología de trabajo
 
@@ -57,47 +49,40 @@ La metodología Kanban es fácil de usar, su sencillez permite mantener actualiz
 
 ### **Objetivos del Proyecto**
 
-- Recopilar, depurar y disponibilizar información de diversas fuentes, incluyendo Yelp y Google Maps, para su análisis.
--Realizar análisis de sentimientos y tendencias en las opiniones de los usuarios.
--Identificar posibles factores que influyan en las opiniones de los usuarios.
--Entrenar y desplegar modelos de aprendizaje automático para clasificación y recomendación.
--Mejorar estrategias de marketing a través de campañas microsegmentadas.
--Desarrollar sistemas de recomendación para usuarios basados en sus experiencias previas.
--Cruzar datos adicionales como cotizaciones en bolsa y tendencias en redes sociales.
+- Realizar un análisis detallado de las opiniones de usuarios en Yelp y Google Maps sobre restaurantes, incluyendo Sgambatis Pizza en la ciudad de Nueva York.
+- Utilizar análisis de sentimientos para comprender la percepción de los clientes sobre Sgambatis Pizza y otros restaurantes similares en la zona.
+- Identificar áreas de mejora y oportunidades de crecimiento basadas en las opiniones de los usuarios.
+- Desarrollar un sistema de recomendación personalizado para los clientes, que les permita descubrir nuevos sabores basados en sus experiencias previas en Sgambatis Pizza y otros lugares.
 
 ### **Metodología y Proceso**
 El proyecto seguirá una metodología de trabajo en equipo que incluye las siguientes etapas:
 
--Recopilación y depuración de datos de Yelp y Google Maps.
-- Análisis exploratorio de datos para identificar patrones y tendencias.
-- Implementación de técnicas de procesamiento de lenguaje natural (PNL) para análisis de sentimientos.
-- Entrenamiento de modelos de aprendizaje automático para clasificación y recomendación.
-- Integración de datos adicionales y análisis de su impacto en las opiniones de los usuarios.
-- Desarrollo de estrategias de marketing y sistemas de recomendación basados en los hallazgos del análisis.
+- Recopilar y depurar datos de opiniones de usuarios en Yelp y Google Maps sobre Sgambatis Pizza y otros restaurantes en la ciudad de Nueva York.
+- Analizar las opiniones para identificar tendencias, patrones y áreas de mejora específicas para Sgambatis Pizza.
+- Implementar un sistema de recomendación que sugiera platos o combinaciones de sabores basados en las preferencias y experiencias previas de los clientes.
 
 ### **KPIs**
 
-- Tasa de Crecimiento de Reseñas Positivas: Este KPI mide el porcentaje de aumento en el número de reseñas positivas en comparación con un período anterior. La meta objetiva podría ser un aumento del 15% en la tasa de crecimiento de reseñas positivas en un trimestre específico.
+- Puntuación Promedio de Reseñas: Establecer una meta para aumentar la puntuación promedio de reseñas en Yelp y Google Maps en un cierto margen (por ejemplo, aumentar de 3.5 a 4 estrellas en un año).
+Fórmula: Suma de todas las puntuaciones de las reseñas / Número total de reseñas
 
-- Índice de Satisfacción del Cliente (ISC): El ISC es una medida que combina diferentes aspectos de la experiencia del cliente, como la calidad del servicio, la limpieza, el ambiente, etc., en una sola métrica. La meta objetiva podría ser alcanzar un ISC de 8 sobre 10 en un plazo determinado.
+- Número de Reseñas Positivas vs. Negativas: Establecer una meta para aumentar la proporción de reseñas positivas en comparación con las negativas (por ejemplo, alcanzar un 80% de reseñas positivas).
+Fórmula: (Número de reseñas positivas - Número de reseñas negativas) / Número total de reseñas
 
-- Tasa de Retención de Clientes: Este KPI mide el porcentaje de clientes que regresan a un negocio después de su primera visita. La meta objetiva podría ser aumentar la tasa de retención de clientes en un 20% en un año.
+- Tendencias de Reseñas a lo Largo del Tiempo: Establecer una meta para mejorar las tendencias de las reseñas a lo largo del tiempo, como reducir el número de reseñas negativas en un 20% en seis meses.
+Fórmula: (Puntuación promedio actual - Puntuación promedio anterior) / Puntuación promedio anterior
 
-- Porcentaje de Reseñas Respondidas: Este KPI mide el porcentaje de reseñas a las que se ha respondido por parte del negocio. La meta objetiva podría ser responder al menos el 80% de las reseñas dentro de las 24 horas posteriores a su publicación.
-
+- Número de Recomendaciones: Establecer una meta para aumentar el número de recomendaciones por parte de los usuarios, como lograr que el 60% de las reseñas incluyan una recomendación clara en un año.
+Fórmula: (Número de reseñas con recomendación) / (Número total de reseñas) * 100
 
 ### **Entregables**
 
-- Informe detallado con los resultados del análisis de datos.
-- Modelos de aprendizaje automático entrenados y desplegados.
-- Estrategias de marketing y sistemas de recomendación propuestos.
-- Documentación técnica y guías de uso para los modelos y sistemas desarrollados.
+- Informe detallado sobre las opiniones de los usuarios en Yelp y Google Maps sobre Sgambatis Pizza, incluyendo análisis de sentimientos y áreas de mejora.
+- Sistema de recomendación personalizado para clientes de Sgambatis Pizza, integrado con las plataformas de Yelp y Google Maps.
 
 ### **Restricciones y Limitaciones**
 
-El proyecto se limita al análisis de datos disponibles en Yelp y Google Maps para el mercado estadounidense.
-La disponibilidad y calidad de los datos pueden afectar los resultados del análisis.
-El alcance del proyecto no incluye la implementación de sistemas en producción, sino la entrega de modelos y recomendaciones listos para su implementación.
+Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógicos y no deben ser tomados como base para decisiones comerciales sin una evaluación adicional.
 
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
