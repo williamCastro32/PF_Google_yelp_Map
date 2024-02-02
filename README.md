@@ -105,7 +105,7 @@ El alcance del proyecto no incluye la implementación de sistemas en producción
 
 ### **Stack tecnológico**
 
-<p align="center"><img src="./imagenes/Stack_Tecnológico.png"></p>
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/Imagenes/Stack_Tecnol%C3%B3gico.png"></p>
 
 
 *Fuente de Datos:* Identificación de la data y tipos de archivos para trabajar, además exploración de data adicional. Esto con el fin de validar la calidad de los datos.
