@@ -105,6 +105,18 @@ El alcance del proyecto no incluye la implementación de sistemas en producción
 
 ### **Stack tecnológico**
 
+<p align="center"><img src="./imagenes/Stack_Tecnológico.png"></p>
+
+
+*Fuente de Datos:* Identificación de la data y tipos de archivos para trabajar, además exploración de data adicional. Esto con el fin de validar la calidad de los datos.
+
+ *Procesamiento:* Extracción, transformación y análisis exploratorio de los datos “ETL” “EDA”, haciendo uso de las diferentes librerías de Python y SQL Server.
+
+*Almacenamiento:* Se almacenan los datos procesados en la nube previamente transformados y convertidos a formato parquet o csv.
+
+*Visualización:* Para la visualización de los datos y KPI´s hacemos uso de Power BI ya que nos permite crear Dash Board interactivos y en real time.
+
+
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Cronograma**
