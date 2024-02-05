@@ -1,46 +1,53 @@
 <a name="readme-top"></a>
 
-# <h1 align="center">**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h1>
-
 <p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/2560px-Yelp_Logo.svg.png"  height="200">
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png"  height="200">
+<img src="./docs/Imagenes/portada_analyticapro.png"  >
+
+# <h4 align="center">**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h4>
+
+<div style="display: flex; justify-content: center;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/2560px-Yelp_Logo.svg.png" height="50">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png" height="50">
+</div>
 
 
-## **Tabla de Contenido**
+<details>
+  <summary><h2>Tabla de Contenido</h2></summary>
 
-- [Proyecto](#Acerca del proyecto)
+
+
+- [Acerca del proyecto](#Acerca-del-proyecto)
 - [Introducción](#introducción)
 - [Alcance](#alcance)
-    - [Objetivos del Proyecto](#objetivos-del-proyecto)
-    - [Metodología y Proceso](#metodología-y-proceso)
-    - [KPIs](#kpis)
-    - [Entregables](#entregables)
-    - [Restricciones y Limitaciones](#restricciones-y-limitaciones)
+- [Objetivos del Proyecto](#objetivos-del-proyecto)
+- [KPIs](#kpis)
+- [Entregables](#entregables)
+- [Restricciones y Limitaciones](#restricciones-y-limitaciones)
 - [Entregables](#entregables)
 - [Stack tecnológico](#stack-tecnológico)
 - [Fuentes de datos](#fuentes-de-datos)
 - [Disclaimer](#disclaimer)
 
+</details>
+
 ## **Acerca del proyecto**
 
-Este proyecto forma parte del Proyecto Final de la etapa de Labs del programa de Data Science de Henry, centrado en el análisis del mercado estadounidense para nuestra cliente, la pizzería Sgambati's Pizza. Utilizando datos de Yelp y Google Maps, buscamos comprender las opiniones y preferencias de los usuarios en ambas plataformas, así como identificar tendencias y oportunidades en el sector de la pizza. Nuestro objetivo es desarrollar productos de datos que permitan realizar análisis de sentimientos, predecir el crecimiento o decrecimiento en el mercado de la pizza, recomendar las mejores ubicaciones para nuevas pizzerías, crear un sistema personalizado de recomendación de restaurantes y un generador de recetas de pizzas innovadoras y deliciosas. [Contexto](https://github.com/williamCastro32/PF_Google_yelp_Map/wiki#contexto)
+Este proyecto forma parte del Proyecto Final de la etapa de Labs del programa de Data Science de Henry, centrado en el análisis del mercado de New York y California para nuestra cliente, la pizzería Sgambati's Pizza. Utilizando datos de Yelp y Google Maps, buscamos comprender las opiniones y preferencias de los usuarios en ambas plataformas, así como identificar tendencias y oportunidades en el sector de la pizza. Nuestro objetivo es desarrollar productos de datos que permitan realizar análisis de sentimientos, predecir el crecimiento o decrecimiento en el mercado de la pizza, recomendar las mejores ubicaciones para nuevas pizzerías, crear un sistema personalizado de recomendación y un generador de recetas de pizzas innovadoras y deliciosas. [Contexto](https://github.com/williamCastro32/PF_Google_yelp_Map/wiki#contexto)
 
 ## **Intrucción**
 
 En AnalyticaPro Solutions, estamos emocionados de embarcarnos en este proyecto en colaboración con Sgambatis Pizza. Nuestro objetivo es utilizar nuestra experiencia en análisis de datos y tecnologías avanzadas para ayudar a Sgambatis Pizza a comprender mejor la opinión de sus clientes y optimizar su estrategia empresarial. A través de la minería de datos en plataformas como Yelp y Google Maps, buscaremos extraer insights significativos sobre la percepción y preferencias de los clientes, lo que permitirá a Sgambatis Pizza tomar decisiones informadas para mejorar su servicio, expandirse estratégicamente y ofrecer experiencias excepcionales a sus clientes. Estamos comprometidos a utilizar métodos analíticos rigurosos y herramientas innovadoras para brindar resultados de alta calidad que impulsen el éxito de Sgambatis Pizza en el competitivo mercado de la ciudad de Nueva York. Para conocere mas sobre nuestro cliente dirijase a: [Nuestro Cliente](https://github.com/williamCastro32/PF_Google_yelp_Map/wiki#nuestro-cliente)
 
-<details>
-  <summary><h2>Alcance</h2></summary>
 
-El presente documento establece el alcance del proyecto de análisis de opiniones de usuarios en plataformas de reseñas como Yelp y Google Maps para el mercado estadounidense. Este proyecto, liderado por AnalyticaPro Solutions, tiene como objetivo ofrecer análisis detallados y recomendaciones basadas en datos para Sgambati's Pizza, su cliente en el sector de restaurantes y turismo. [Planteamiento del Problema](https://github.com/williamCastro32/PF_Google_yelp_Map/wiki#planteamiento-del-problemae)
+## **Alcance**
 
-### Metodología de trabajo
+El presente documento establece el alcance del proyecto de análisis de opiniones de usuarios en plataformas de reseñas como Yelp y Google Maps para el mercado de New york y California. Este proyecto, liderado por AnalyticaPro Solutions, tiene como objetivo ofrecer análisis detallados y recomendaciones basadas en datos para Sgambati's Pizza, su cliente en el sector de restaurantes y turismo. [Planteamiento del Problema](https://github.com/williamCastro32/PF_Google_yelp_Map/wiki#planteamiento-del-problemae)
+
+### **Metodología de trabajo**
 
 Para el completo desarrollo del trabajo contamos con tres Sprints cada uno con sus entregables y una duración de dos semanas cada uno. Para el trabajo colaborativo hacemos uso de Trello el cual nos permite establecer una planificación y gestión de tareas grupales facilitando la asignación de tiempos de entrega de cada una de las tareas.
 
-#### Metodología Ágil
+#### **Metodología Ágil**
 
 Como metodología ágil usamos la metodología KANBAN ya que su objetivo es visualizar de manera general cada etapa de una tarea desde que es planeada hasta su realización.
 
@@ -49,17 +56,10 @@ La metodología Kanban es fácil de usar, su sencillez permite mantener actualiz
 
 ### **Objetivos del Proyecto**
 
-- Realizar un análisis detallado de las opiniones de usuarios en Yelp y Google Maps sobre restaurantes, incluyendo Sgambatis Pizza en la ciudad de Nueva York.
+- Realizar un análisis detallado de las opiniones de usuarios en Yelp y Google Maps sobre restaurantes, incluyendo Sgambatis Pizza en la ciudad de Nueva York y California.
 - Utilizar análisis de sentimientos para comprender la percepción de los clientes sobre Sgambatis Pizza y otros restaurantes similares en la zona.
 - Identificar áreas de mejora y oportunidades de crecimiento basadas en las opiniones de los usuarios.
-- Desarrollar un sistema de recomendación personalizado para los clientes, que les permita descubrir nuevos sabores basados en sus experiencias previas en Sgambatis Pizza y otros lugares.
-
-### **Metodología y Proceso**
-El proyecto seguirá una metodología de trabajo en equipo que incluye las siguientes etapas:
-
-- Recopilar y depurar datos de opiniones de usuarios en Yelp y Google Maps sobre Sgambatis Pizza y otros restaurantes en la ciudad de Nueva York.
-- Analizar las opiniones para identificar tendencias, patrones y áreas de mejora específicas para Sgambatis Pizza.
-- Implementar un sistema de recomendación que sugiera platos o combinaciones de sabores basados en las preferencias y experiencias previas de los clientes.
+- Desarrollar un sistema de recomendación personalizado para los clientes, que les permita descubrir nuevos sabores basados en sus experiencias previas en Sgambatis Pizza.
 
 ### **KPIs**
 
@@ -86,11 +86,10 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
-</details>
 
 ### **Stack tecnológico**
 
-<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/Imagenes/Stack_Tecnol%C3%B3gico.png"></p>
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Stack_Tecnol%C3%B3gico.png"></p>
 
 
 *Fuente de Datos:* Identificación de la data y tipos de archivos para trabajar, además exploración de data adicional. Esto con el fin de validar la calidad de los datos.
