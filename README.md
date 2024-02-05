@@ -105,11 +105,12 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Cronograma**
+
 El proyecto se desarrollará en un período de 6 semanas, con tres sprint que son los siguientes:
 - Sprnt 1: Puesta en macha del proyecto. 2 Semanas
 - Sprint 2: Data Engineering. 2 Semanas
 - Sprint 3: Data Analitics y Machine learning. 2 Semanas.
-[Cronograma](https://github.com/)
+[Cronograma](https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/diagrama_Gantt.jpg)
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Fuentes de datos**
@@ -122,6 +123,7 @@ Fuentes de datos obligatorias:
 <p align="right">(<a href="#readme-top">ir arriba</a>)</p>
 
 ## **Sobre nosotros**
+
 **AnalyticaPro Solutions**, Somos una consultora especializada en análisis de datos dedicada a apoyar a las empresas en la mejora de sus decisiones mediante el uso inteligente de la información. Ofrecemos una amplia gama de servicios que incluyen investigación, visualización de datos, modelado y aplicaciones de machine learning. Utilizamos las herramientas más avanzadas y las metodologías más efectivas del mercado para proporcionar a nuestros clientes insights valiosos y estratégicos basados en datos sólidos.
 
 | Perfil                                                | Nombre              | Rol              | LinkedIn                                             | GitHub           |
