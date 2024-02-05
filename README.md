@@ -1,17 +1,15 @@
 <a name="readme-top"></a>
 
 <p align="center">
-<img src="./docs/Imagenes/portada_analyticapro.png"  >
+  <img src="./docs/Imagenes/portada_analyticapro.png">
+</p>
 
 # <h4 align="center">**`YELP & GOOGLE MAPS - REVIEWS AND RECOMMENDATIONS`**</h4>
 
 <div style="display: flex; justify-content: center;">
-  <div style="text-align: center;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/2560px-Yelp_Logo.svg.png" height="50">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png" height="50">
-  </div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Yelp_Logo.svg/2560px-Yelp_Logo.svg.png" height="50">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Google_Maps_Logo_2020.svg/512px-Google_Maps_Logo_2020.svg.png" height="50">
 </div>
-
 
 
 <details>
