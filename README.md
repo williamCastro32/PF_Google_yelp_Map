@@ -97,12 +97,11 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
  *Procesamiento:* Extracción, transformación y análisis exploratorio de los datos “ETL” “EDA”, haciendo uso de las diferentes librerías de Python y SQL Server.
 
-*Almacenamiento:* Se almacenan los datos procesados en la nube previamente transformados y convertidos a formato parquet o csv.
+*Almacenamiento:* Se almacenan los datos procesados en el Data Warehouse, donde se utilizaron las herramientas de la nube AWS como: S3, Amazon Redshift y AWS Glue.
 
 *Visualización:* Para la visualización de los datos y KPI´s hacemos uso de Power BI ya que nos permite crear Dash Board interactivos y en real time.
 
-
-<p align="right">(<a href="#readme-top">ir arriba</a>)</p>
+### **Pipeline**
 
 ## **Cronograma**
 
