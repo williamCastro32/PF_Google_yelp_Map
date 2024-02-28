@@ -101,7 +101,10 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 *Visualización:* Para la visualización de los datos y KPI´s hacemos uso de Power BI ya que nos permite crear Dash Board interactivos y en real time.
 
-### **Pipeline**
+### **Pipeline AWS**
+
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
+
 
 ## **Cronograma**
 
