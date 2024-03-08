@@ -70,7 +70,7 @@ La metodología Kanban es fácil de usar, su sencillez permite mantener actualiz
 Fórmula: Suma de todas las puntuaciones de las reseñas / Número total de reseñas
 
 - Número de Reseñas Positivas vs. Negativas: Establecer una meta para aumentar la proporción de reseñas positivas en comparación con las negativas (por ejemplo, alcanzar un 80% de reseñas positivas).
-Fórmula: (Número de reseñas positivas - Número de reseñas negativas) / Número total de reseñas
+  Fórmula: (Número de reseñas positivas - Número de reseñas negativas) / Número total de reseñas
 
 - Análisis de Sentimientos:Establecer un análisis de sentimientos de las reviews positivas, negativas y neutras con el fin de identificar posibles puntos y ciudades donde el cliente pueda establecer nuevos negocios. 
 
