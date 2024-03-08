@@ -119,7 +119,7 @@ El anterior Pipeline de AWS empleado se puede describir de la siguiente manera:
 
 *Consumo:* En esta etapa, se consumen los datos transformados, y se permite desplegar el modelo de machine learning en tiempo real, como Streamlit, que se conectan con los datos para ofrecer funcionalidades como el sistema de recomendación.
 
-*Visualización:* Para la visualización de los datos, se realiza una conexión con power BI para la visualización de los datos y así compartir los datos ya procesados y poderlos utilizar en el dashboards interactivos.
+*Visualización:* Para la visualización de los datos, se realiza una conexión con Power BI para la visualización de los datos y así compartir los datos ya procesados y poderlos utilizar en el dashboards interactivos.
 
 
 ### **MVP Dashboard Power BI Final**  
