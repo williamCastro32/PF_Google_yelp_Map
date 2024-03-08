@@ -131,7 +131,7 @@ El anterior Pipeline de AWS empleado se puede describir de la siguiente manera:
 
 ### **Sistema de Recomendacion desplegado en Streamlit**  
 
-A continuación se muestra un screenshot del despliegue de nuestro sistem de recomendación en la plataforma de Streamlit, en donde se observa las recomendaciones de restaurantes para el usuario, basadas en la categoria Tacos.
+A continuación se muestra un screenshot del despliegue de nuestro sistema de recomendación en la plataforma de Streamlit, en donde se observa las recomendaciones de restaurantes para el usuario, basadas en la categoria "Tacos".
 
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Sistema%20de%20Recomendacion%20en%20Streamlit.png"></p>
 
