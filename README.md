@@ -92,8 +92,6 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 ### **Stack tecnológico**
 
-A continuación se muestra nuestro stack tecnológico empleado: 
-
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Stack%20_Tecnol%C3%B3gico.png"></p>
 
 El anterior Stack tecnológico empleado se puede describir de la siguiente manera:
@@ -114,9 +112,13 @@ El anterior Stack tecnológico empleado se puede describir de la siguiente maner
 El anterior Pipeline de AWS empleado se puede describir de la siguiente manera:
 
 *Ingesta:* En esta etapa, los datos externos de Yelp y Google Maps se ingieren desde la fuente mediante AWS DataSync, que los carga en el bucket de Amazon S3 destinado a los datos sin procesar. 
+
 *Almacenamiento:* En esta etapa, se almacenan los datos en un data lake, utilizando Amazon S3 como capa de almacenamiento. Los datos se organizan en diferentes buckets, según su formato y su etapa en el pipeline. Los datos almacenados en Amazon S3 se registran en el AWS Glue Data Catalog, que los cataloga y los hace disponibles para su análisis y también se utiliza Amazon Redshift para el datalake.
+
 *Procesamiento:* En esta etapa, se realizan las transformaciones ETL de los datos, utilizando AWS Glue como servicio de orquestación y ejecución. Los datos transformados se almacenan en el bucket cleaned-data de Amazon S3. Para el almacenamiento de los metadatos de los datos, se utiliza AWS Glue Data Catalog, que es un servicio gestionado que actúa como un repositorio centralizado y unificado para todos los esquemas de datos.
+
 *Consumo:* En esta etapa, se consumen los datos transformados, y se permite desplegar el modelo de machine learning en tiempo real, como Streamlit, que se conectan con los datos para ofrecer funcionalidades como el sistema de recomendación.
+
 *Visualización:* Para la visualización de los datos, se realiza una conexión con power BI para la visualización de los datos y así compartir los datos ya procesados y poderlos utilizar en el dashboards interactivos.
 
 
