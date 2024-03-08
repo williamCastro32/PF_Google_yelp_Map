@@ -90,8 +90,7 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 ### **Stack tecnológico**
 
-<p align="center"><img src="C:\Users\USUARIO\OneDrive\Escritorio\Henry\Proyecto Final Google Yelp\PF_Google_yelp_Map\docs\Imagenes\Stack _Tecnológico.png"></p>
-
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Stack%20_Tecnol%C3%B3gico.png"></p>
 
 *Fuente de Datos:* Identificación de la data y tipos de archivos para trabajar, además exploración de data adicional. Esto con el fin de validar la calidad de los datos.
 
@@ -99,9 +98,15 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 *Almacenamiento:* Se almacenan los datos procesados en el Data Warehouse, donde se utilizaron las herramientas de la nube AWS como: S3, Amazon Redshift y AWS Glue.
 
-*Visualización:* Para la visualización de los datos y KPI´s hacemos uso de Power BI ya que nos permite crear Dash Board interactivos y en real time.
+*Visualización:* Para la visualización de los datos y KPI´s hacemos uso de Power BI ya que nos permite crear Dash Board interactivos y en real time, Tambien realizamos el despliegue en Streamlit del modelo del machine learning.
+
 
 ### **Pipeline AWS**
+
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
+
+
+
 
 
 ## **Cronograma**
