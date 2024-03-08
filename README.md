@@ -66,17 +66,12 @@ La metodología Kanban es fácil de usar, su sencillez permite mantener actualiz
 
 ### **KPIs**
 
-- Puntuación Promedio de Reseñas: Establecer una meta para aumentar la puntuación promedio de reseñas en Yelp y Google Maps en un cierto margen (por ejemplo, aumentar de 3.5 a 4 estrellas en un año).
+- Universo de Reseñas: Establecer una meta para aumentar la puntuación promedio de reseñas en Yelp y Google Maps en un cierto margen (por ejemplo, aumentar de 3.5 a 4 estrellas en un año).
 Fórmula: Suma de todas las puntuaciones de las reseñas / Número total de reseñas
 
-- Número de Reseñas Positivas vs. Negativas: Establecer una meta para aumentar la proporción de reseñas positivas en comparación con las negativas (por ejemplo, alcanzar un 80% de reseñas positivas).
-Fórmula: (Número de reseñas positivas - Número de reseñas negativas) / Número total de reseñas
+- Puntuación Promedio de reseñas de Pizzerias: Establecer una meta para aumentar la proporción de reseñas positivas en comparación con las negativas (por ejemplo, alcanzar un 80% de reseñas positivas).
 
-- Tendencias de Reseñas a lo Largo del Tiempo: Establecer una meta para mejorar las tendencias de las reseñas a lo largo del tiempo, como reducir el número de reseñas negativas en un 20% en seis meses.
-Fórmula: (Puntuación promedio actual - Puntuación promedio anterior) / Puntuación promedio anterior
-
-- Número de Recomendaciones: Establecer una meta para aumentar el número de recomendaciones por parte de los usuarios, como lograr que el 60% de las reseñas incluyan una recomendación clara en un año.
-Fórmula: (Número de reseñas con recomendación) / (Número total de reseñas) * 100
+- Cantidad de Usuarios: Establecer la cantidad de usuarios finales.
 
 ### **Entregables**
 
