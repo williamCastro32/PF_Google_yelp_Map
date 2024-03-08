@@ -92,6 +92,14 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 ### **Stack tecnológico**
 
+El stack tecnológico seleccionado para el proyecto se basa en servicios de AWS, lo que nos permite construir una arquitectura de datos moderna centrada en data lakes. Esta elección ofrece una solución escalable, flexible y segura para el procesamiento de datos, utilizando servicios sin servidor que son administrados por AWS.
+
+Al optar por servicios sin servidor, obtenemos varios beneficios importantes. Por ejemplo, la escalabilidad es automática, lo que significa que los recursos se ajustan dinámicamente según la demanda y el volumen de los datos, eliminando la necesidad de gestionar servidores o infraestructura. Esto no solo simplifica el proceso, sino que también nos ayuda a optimizar los costos, ya que solo pagamos por los recursos que realmente utilizamos.
+
+Además, la adopción de servicios sin servidor promueve la agilidad en el desarrollo y la implementación de soluciones de datos. Al eliminar la preocupación por el mantenimiento y la operación de sistemas, podemos centrarnos en la creación de soluciones de manera rápida y eficiente.
+
+En cuanto a la seguridad, los servicios de AWS incluyen características integradas de seguridad, como cifrado, autenticación, autorización y monitoreo. Esto garantiza la protección y la privacidad de los datos, proporcionando un entorno seguro para el procesamiento y almacenamiento de información sensible. En resumen, al elegir un enfoque sin servidor y basado en AWS, estamos aprovechando una infraestructura moderna y robusta que nos permite avanzar con confianza en nuestro proyecto de datos.
+
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Stack%20_Tecnol%C3%B3gico.png"></p>
 
 El anterior Stack tecnológico empleado se puede describir de la siguiente manera:
