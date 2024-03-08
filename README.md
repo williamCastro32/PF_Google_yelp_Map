@@ -137,9 +137,21 @@ El anterior Pipeline de AWS empleado se puede describir de la siguiente manera:
 
 ### **MVP Dashboard Power BI Final**  
 
+Nuestro dashboard ofrece una visión completa y detallada del universo de reseñas de pizzerías, incluyendo información sobre el alto volumen de pizzerías, el porcentaje de reseñas positivas por estado y un análisis específico del sentimiento para Sgambati's New York Pizza.
+
+En esta herramienta, encontrarás datos esenciales como la puntuación promedio, la cantidad de usuarios, y los KPIs relevantes, así como también análisis detallados del sentimiento de las reseñas tanto a nivel general como específico para establecimientos individuales como Sgambati's New York Pizza.
+
+Además, hemos incluido un análisis específico del sentimiento para Sgambati's New York Pizza, donde podrás ver el porcentaje de reseñas positivas, negativas y neutrales, así como ejemplos de reseñas específicas que han contribuido a este análisis.
+
+En resumen, nuestro dashboard ofrece una herramienta integral para analizar y comprender las reseñas de las pizzerías, proporcionando insights valiosos para impulsar nuestro negocio hacia el éxito continuo. ¡Explora y descubre las claves para una experiencia del cliente excepcional!"
+
+
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_01.jpg"></p>
+
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_02.jpg"></p>
+
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_03.jpg"></p>
+
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_04.jpg"></p>
 
 ## **Cronograma**
