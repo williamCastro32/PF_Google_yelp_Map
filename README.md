@@ -104,6 +104,10 @@ El anterior Stack tecnológico empleado se puede describir de la siguiente maner
 
 *Visualización:* Para la visualización de los datos y KPI´s hacemos uso de Power BI ya que nos permite crear Dash Board interactivos y en real time, Tambien realizamos el despliegue en Streamlit del modelo del machine learning.
 
+### **Modelo ER detallado**
+
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Modelo_ER_Detallado.png"></p>
+
 
 ### **Pipeline AWS**
 
