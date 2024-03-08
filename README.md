@@ -100,6 +100,7 @@ Además, la adopción de servicios sin servidor promueve la agilidad en el desar
 
 En cuanto a la seguridad, los servicios de AWS incluyen características integradas de seguridad, como cifrado, autenticación, autorización y monitoreo. Esto garantiza la protección y la privacidad de los datos, proporcionando un entorno seguro para el procesamiento y almacenamiento de información sensible. En resumen, al elegir un enfoque sin servidor y basado en AWS, estamos aprovechando una infraestructura moderna y robusta que nos permite avanzar con confianza en nuestro proyecto de datos.
 
+
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Stack%20_Tecnol%C3%B3gico.png"></p>
 
 El anterior Stack tecnológico empleado se puede describir de la siguiente manera:
