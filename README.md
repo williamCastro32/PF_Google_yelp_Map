@@ -70,9 +70,11 @@ Fórmula: Suma de todas las puntuaciones de las reseñas / Número total de rese
 - Número de Reseñas Positivas vs. Negativas: Establecer una meta para aumentar la proporción de reseñas positivas en comparación con las negativas (por ejemplo, alcanzar un 80% de reseñas positivas).
 Fórmula: (Número de reseñas positivas - Número de reseñas negativas) / Número total de reseñas
 
-- Analisis de Sentimientos: Establecer e implementar el analisis de sentimientos con el fin de identificar los % de reseñas donde los usuarios presentan comentarios positivos respecto a la atencion recibida en los negocios a los que asisten habitualmente
+- Tendencias de Reseñas a lo Largo del Tiempo: Establecer una meta para mejorar las tendencias de las reseñas a lo largo del tiempo, como reducir el número de reseñas negativas en un 20% en seis meses.
+Fórmula: (Puntuación promedio actual - Puntuación promedio anterior) / Puntuación promedio anterior
 
-
+- Número de Recomendaciones: Establecer una meta para aumentar el número de recomendaciones por parte de los usuarios, como lograr que el 60% de las reseñas incluyan una recomendación clara en un año.
+Fórmula: (Número de reseñas con recomendación) / (Número total de reseñas) * 100
 
 ### **Entregables**
 
@@ -88,7 +90,7 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 ### **Stack tecnológico**
 
-<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Stack%20_Tecnol%C3%B3gico.png"></p>
+<p align="center"><img src="C:\Users\USUARIO\OneDrive\Escritorio\Henry\Proyecto Final Google Yelp\PF_Google_yelp_Map\docs\Imagenes\Stack _Tecnológico.png"></p>
 
 
 *Fuente de Datos:* Identificación de la data y tipos de archivos para trabajar, además exploración de data adicional. Esto con el fin de validar la calidad de los datos.
@@ -100,22 +102,6 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 *Visualización:* Para la visualización de los datos y KPI´s hacemos uso de Power BI ya que nos permite crear Dash Board interactivos y en real time.
 
 ### **Pipeline AWS**
-
-<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
-
-El Pipeline AWS empleado se puede describir de la siguiente manera:
-
-*Ingesta:* En esta etapa, los datos externos de Yelp y Google Maps se ingieren desde la fuente mediante AWS DataSync, que los carga en el bucket de Amazon S3 destinado a los datos sin procesar. 
-
-*Almacenamiento:* En esta etapa, se almacenan los datos en un data lake, utilizando Amazon S3 como capa de almacenamiento. Los datos se organizan en el bucket, según su formato y su etapa en el pipeline. Los datos almacenados en Amazon S3 se registran en el AWS Glue Data Catalog, que los cataloga y los hace disponibles para su análisis. 
-
-*Procesamiento:* En esta etapa, se realizan las transformaciones ETL de los datos, utilizando AWS Glue como servicio de orquestación y ejecución. Los datos transformados se almacenan en el bucket cleaned-data de Amazon S3. Para el almacenamiento de los metadatos de los datos, se utiliza AWS Glue Data Catalog, que es un servicio gestionado que actúa como un repositorio centralizado y unificado para todos los esquemas de datos.
-
-*Consumo:* En esta etapa, se consumen los datos transformados, utilizando diferentes servicios de AWS como Redshift según el tipo de análisis que se quiera realizar. 
-
-*Visualización:*  Para la visualización de los datos, se utiliza Power BI, para poder compartir el dashboard, que se conectan directamente con los datos almacenados en Amazon S3 y tambien el sistema de recomendaciones.
-
-*Seguridad:* Los componentes de todas las capas de nuestra arquitectura protegen los datos, las identidades y los recursos de procesamiento mediante el uso nativo de las capacidades proporcionadas por AWS IAM.
 
 
 ## **Cronograma**
