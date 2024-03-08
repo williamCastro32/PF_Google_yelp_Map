@@ -108,7 +108,7 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
 
 
-### **MVP/ Dashboard Power BI Final **  
+### **MVP/ Dashboard Power BI Final**  
 
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
 
