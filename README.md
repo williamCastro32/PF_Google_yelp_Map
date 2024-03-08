@@ -27,7 +27,7 @@
 - [Entregables](#entregables)
 - [Stack tecnológico](#stack-tecnológico)
 - [Pipeline AWS](#pipeline-aws)
-- [MVP Dashboard Power BI Final](#MVP_Dashboard-power-BI-final)
+- [MVP Dashboard Power BI Final](#MVP-Dashboard-power-BI-final)
 - [Fuentes de datos](#fuentes-de-datos)
 - [Disclaimer](#disclaimer)
 
