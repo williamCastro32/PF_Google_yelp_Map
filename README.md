@@ -66,17 +66,12 @@ La metodología Kanban es fácil de usar, su sencillez permite mantener actualiz
 
 ### **KPIs**
 
-- Puntuación Promedio de Reseñas: Establecer una meta para aumentar la puntuación promedio de reseñas en Yelp y Google Maps en un cierto margen (por ejemplo, aumentar de 3.5 a 4 estrellas en un año).
+- Universo de Reseñas: Establecer una meta para aumentar la puntuación promedio de reseñas en Yelp y Google Maps en un cierto margen (por ejemplo, aumentar de 3.5 a 4 estrellas en un año).
 Fórmula: Suma de todas las puntuaciones de las reseñas / Número total de reseñas
 
-- Número de Reseñas Positivas vs. Negativas: Establecer una meta para aumentar la proporción de reseñas positivas en comparación con las negativas (por ejemplo, alcanzar un 80% de reseñas positivas).
-Fórmula: (Número de reseñas positivas - Número de reseñas negativas) / Número total de reseñas
+- Puntuación Promedio de reseñas de Pizzerias: Establecer una meta para aumentar la proporción de reseñas positivas en comparación con las negativas (por ejemplo, alcanzar un 80% de reseñas positivas).
 
-- Tendencias de Reseñas a lo Largo del Tiempo: Establecer una meta para mejorar las tendencias de las reseñas a lo largo del tiempo, como reducir el número de reseñas negativas en un 20% en seis meses.
-Fórmula: (Puntuación promedio actual - Puntuación promedio anterior) / Puntuación promedio anterior
-
-- Número de Recomendaciones: Establecer una meta para aumentar el número de recomendaciones por parte de los usuarios, como lograr que el 60% de las reseñas incluyan una recomendación clara en un año.
-Fórmula: (Número de reseñas con recomendación) / (Número total de reseñas) * 100
+- Cantidad de Usuarios: Establecer la cantidad de usuarios finales.
 
 ### **Entregables**
 
@@ -92,7 +87,18 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 ### **Stack tecnológico**
 
+El stack tecnológico seleccionado para el proyecto se basa en servicios de AWS, lo que nos permite construir una arquitectura de datos moderna centrada en data lakes. Esta elección ofrece una solución escalable, flexible y segura para el procesamiento de datos, utilizando servicios sin servidor que son administrados por AWS.
+
+Al optar por servicios sin servidor, obtenemos varios beneficios importantes. Por ejemplo, la escalabilidad es automática, lo que significa que los recursos se ajustan dinámicamente según la demanda y el volumen de los datos, eliminando la necesidad de gestionar servidores o infraestructura. Esto no solo simplifica el proceso, sino que también nos ayuda a optimizar los costos, ya que solo pagamos por los recursos que realmente utilizamos.
+
+Además, la adopción de servicios sin servidor promueve la agilidad en el desarrollo y la implementación de soluciones de datos. Al eliminar la preocupación por el mantenimiento y la operación de sistemas, podemos centrarnos en la creación de soluciones de manera rápida y eficiente.
+
+En cuanto a la seguridad, los servicios de AWS incluyen características integradas de seguridad, como cifrado, autenticación, autorización y monitoreo. Esto garantiza la protección y la privacidad de los datos, proporcionando un entorno seguro para el procesamiento y almacenamiento de información sensible. En resumen, al elegir un enfoque sin servidor y basado en AWS, estamos aprovechando una infraestructura moderna y robusta que nos permite avanzar con confianza en nuestro proyecto de datos.
+
+
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Stack%20_Tecnol%C3%B3gico.png"></p>
+
+El anterior Stack tecnológico se puede describir de la siguiente manera:
 
 *Fuente de Datos:* Identificación de la data y tipos de archivos para trabajar, además exploración de data adicional. Esto con el fin de validar la calidad de los datos.
 
@@ -102,15 +108,46 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 *Visualización:* Para la visualización de los datos y KPI´s hacemos uso de Power BI ya que nos permite crear Dash Board interactivos y en real time, Tambien realizamos el despliegue en Streamlit del modelo del machine learning.
 
+### **Modelo ER detallado**
+
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Modelo_ER_Detallado.png"></p>
+
 
 ### **Pipeline AWS**
 
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
 
+El anterior Pipeline de AWS empleado se puede describir de la siguiente manera:
+
+*Ingesta:* En esta etapa, los datos externos de Yelp y Google Maps se ingieren desde la fuente mediante AWS DataSync, que los carga en el bucket de Amazon S3 destinado a los datos sin procesar. 
+
+*Almacenamiento:* En esta etapa, se almacenan los datos en un data lake, utilizando Amazon S3 como capa de almacenamiento. Los datos se organizan en diferentes buckets, según su formato y su etapa en el pipeline. Los datos almacenados en Amazon S3 se registran en el AWS Glue Data Catalog, que los cataloga y los hace disponibles para su análisis y también se utiliza Amazon Redshift para el datalake.
+
+*Procesamiento:* En esta etapa, se realizan las transformaciones ETL de los datos, utilizando AWS Glue como servicio de orquestación y ejecución. Los datos transformados se almacenan en el bucket cleaned-data de Amazon S3. Para el almacenamiento de los metadatos de los datos, se utiliza AWS Glue Data Catalog, que es un servicio gestionado que actúa como un repositorio centralizado y unificado para todos los esquemas de datos.
+
+*Consumo:* En esta etapa, se consumen los datos transformados, y se permite desplegar el modelo de machine learning en tiempo real, como Streamlit, que se conectan con los datos para ofrecer funcionalidades como el sistema de recomendación.
+
+*Visualización:* Para la visualización de los datos, se realiza una conexión con Power BI para la visualización de los datos y así compartir los datos ya procesados y poderlos utilizar en el dashboards interactivos.
+
 
 ### **MVP Dashboard Power BI Final**  
 
-<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
+Nuestro dashboard ofrece una visión completa y detallada del universo de reseñas de pizzerías, incluyendo información sobre el alto volumen de pizzerías, el porcentaje de reseñas positivas por estado y un análisis específico del sentimiento para Sgambati's New York Pizza.
+
+En esta herramienta, encontrarás datos esenciales como la puntuación promedio, la cantidad de usuarios, y los KPIs relevantes, así como también análisis detallados del sentimiento de las reseñas tanto a nivel general como específico para establecimientos individuales como Sgambati's New York Pizza.
+
+Además, hemos incluido un análisis específico del sentimiento para Sgambati's New York Pizza, donde podrás ver el porcentaje de reseñas positivas, negativas y neutrales, así como ejemplos de reseñas específicas que han contribuido a este análisis.
+
+En resumen, nuestro dashboard ofrece una herramienta integral para analizar y comprender las reseñas de las pizzerías, proporcionando insights valiosos para impulsar nuestro negocio hacia el éxito continuo. ¡Explora y descubre las claves para una experiencia del cliente excepcional!"
+
+
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_01.jpg"></p>
+
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_02.jpg"></p>
+
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_03.jpg"></p>
+
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_04.jpg"></p>
 
 ## **Cronograma**
 
