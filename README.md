@@ -103,7 +103,7 @@ En cuanto a la seguridad, los servicios de AWS incluyen características integra
 
 <p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Stack%20_Tecnol%C3%B3gico.png"></p>
 
-El anterior Stack tecnológico empleado se puede describir de la siguiente manera:
+El anterior Stack tecnológico se puede describir de la siguiente manera:
 
 *Fuente de Datos:* Identificación de la data y tipos de archivos para trabajar, además exploración de data adicional. Esto con el fin de validar la calidad de los datos.
 
