@@ -133,7 +133,7 @@ El anterior Pipeline de AWS empleado se puede describir de la siguiente manera:
 
 A continuación se muestra un screenshot del despliegue de nuestro sistem de recomendación en la plataforma de Streamlit.
 
-<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Sistema%20de%20Recomendacion%20en%20Streamlit.png"></p>
 
 
 ### **MVP Dashboard Power BI Final**  
