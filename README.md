@@ -70,11 +70,9 @@ Fórmula: Suma de todas las puntuaciones de las reseñas / Número total de rese
 - Número de Reseñas Positivas vs. Negativas: Establecer una meta para aumentar la proporción de reseñas positivas en comparación con las negativas (por ejemplo, alcanzar un 80% de reseñas positivas).
 Fórmula: (Número de reseñas positivas - Número de reseñas negativas) / Número total de reseñas
 
-- Tendencias de Reseñas a lo Largo del Tiempo: Establecer una meta para mejorar las tendencias de las reseñas a lo largo del tiempo, como reducir el número de reseñas negativas en un 20% en seis meses.
-Fórmula: (Puntuación promedio actual - Puntuación promedio anterior) / Puntuación promedio anterior
+- Analisis de Sentimientos: Establecer e implementar el analisis de sentimientos con el fin de identificar los % de reseñas donde los usuarios presentan comentarios positivos respecto a la atencion recibida en los negocios a los que asisten habitualmente
 
-- Número de Recomendaciones: Establecer una meta para aumentar el número de recomendaciones por parte de los usuarios, como lograr que el 60% de las reseñas incluyan una recomendación clara en un año.
-Fórmula: (Número de reseñas con recomendación) / (Número total de reseñas) * 100
+
 
 ### **Entregables**
 
