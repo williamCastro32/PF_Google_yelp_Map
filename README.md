@@ -26,6 +26,7 @@
 - [Restricciones y Limitaciones](#restricciones-y-limitaciones)
 - [Entregables](#entregables)
 - [Stack tecnológico](#stack-tecnológico)
+- [Pipeline AWS](#pipeline-aws)
 - [Fuentes de datos](#fuentes-de-datos)
 - [Disclaimer](#disclaimer)
 
