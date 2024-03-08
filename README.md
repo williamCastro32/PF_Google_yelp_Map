@@ -110,7 +110,10 @@ Los resultados obtenidos en el proyecto son para fines exclusivamente pedagógic
 
 ### **MVP Dashboard Power BI Final**  
 
-<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Pipeline%20AWS.png"></p>
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_01.jpg"></p>
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_02.jpg"></p>
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_03.jpg"></p>
+<p align="center"><img src="https://github.com/williamCastro32/PF_Google_yelp_Map/blob/main/docs/Imagenes/Dash_04.jpg"></p>
 
 ## **Cronograma**
 
